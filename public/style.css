@@ -252,4 +252,73 @@ footer a {
 	}
 }
 
+/* Styling vraag-aanbod */
 
+/* Algemene opmaak */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Opmaak voor secties */
+section {
+  margin-bottom: 20px;
+}
+
+/* Opmaak voor vraagaanbod sectie */
+.vraagaanbod {
+  background-color: #f9f9f9;
+  padding: 20px;
+}
+
+.vraagaanbod article {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.vraagaanbod h2 {
+  color: #333;
+}
+
+.vraagaanbod p {
+  margin: 5px 0;
+}
+
+.vraagaanbod img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 10px;
+}
+
+.over-vraagaanbod-tekst {
+  margin-top: 10px;
+}
+
+/* Opmaak voor contact sectie */
+.contact {
+  background-color: #e9e9e9;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.contact img {
+  border-radius: 50%;
+  margin-right: 20px;
+  max-width: 100px;
+}
+
+.contact article {
+  color: #333;
+}
+
+.contact p {
+  margin: 5px 0;
+}
+
+.contact p span {
+  font-weight: bold;
+  color: #007bff;
+}
