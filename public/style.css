@@ -118,7 +118,7 @@
   .menubar a {
     padding: 5px 0;
     display: inline-block;
-    color: #a4aaae;
+    color: var(--dark);
     text-align: center;
     text-transform: uppercase;
     font-family: 'Noto Sans', sans-serif, Georgia;
@@ -132,11 +132,6 @@
     list-style-type: none;
     color: #6d6d6d;
     padding: 0 8px;
-  }
-
-  /* Stijlen voor de actieve link */
-  .active {
-    border-bottom: 3px solid #ecf0f1;
   }
 }
 
@@ -282,4 +277,55 @@ a {
 /* Stijlen voor de knop bij hover */
 .btn:hover {
   background: rgba(236, 240, 241, 0.8);
+}
+
+/* Form */
+
+.input-group {
+  margin-bottom: 15px;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.input-group input,
+.input-group select {
+  width: calc(100% - 10px);
+  padding: 5px;
+  font-size: 1em;
+}
+
+.input-group input[type="file"] {
+  width: auto;
+}
+
+.radio-buttons {
+  margin-bottom: 15px;
+}
+
+.radio-buttons label {
+  margin-right: 15px;
+}
+
+.radio-buttons input[type="radio"] {
+  margin-right: 5px;
+}
+
+input[type="submit"] {
+  background-color: var(--primary);
+  cursor: pointer;
+  text-transform: uppercase;
+  background: rgba(236, 240, 241, 0.6);
+  border: 2px #2e2e2e solid;
+  border-radius: 2px;
+  padding: 8px;
+  font-family: 'Noto Sans', sans-serif, Georgia;
+  font-weight: 700;
+}
+
+input[type="submit"]:hover {
+  background-color: var(--primary);
 }
